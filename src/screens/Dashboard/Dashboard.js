@@ -53,7 +53,7 @@ export default function Dashboard(props) {
       </Drawer>
       <AppBar position="fixed" className="appbar" color="white">
         <Toolbar variant="dense" className="toolbar">
-          <Button>Hello</Button>
+          <Button>User</Button>
         </Toolbar>
       </AppBar>
       <div className="non-drawer">

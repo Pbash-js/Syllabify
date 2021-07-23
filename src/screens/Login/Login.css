@@ -38,19 +38,33 @@
   justify-content: space-between;
 }
 
+.login-footer {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
 @media screen and (max-width: 640px) {
-  .screen {
-    width: 95%;
-  }
-  section {
+  .login-section {
     grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 1fr;
+    grid-template-rows: 0.4fr 1fr;
   }
-  .form-area {
+
+  .login-form-area {
+    padding-top: 1.5rem;
     padding-left: 0;
+  }
+  .login-button-group {
+    margin-top: 1.5rem;
   }
   .small-text,
   .muted-text {
     font-size: 0.7rem !important;
+  }
+
+  .login-footer {
+    width: 80%;
+    margin-bottom: 1.5rem;
   }
 }

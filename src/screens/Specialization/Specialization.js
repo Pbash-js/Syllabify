@@ -33,22 +33,9 @@ export default function Specialization() {
             <SubjectCard subject="others">Others</SubjectCard>
           </div>
           <span className="spec-button-group">
-            {/* <Button
-              style={{
-                textTransform: "none",
-                alignSelf: "flex-start",
-                maxLines: 1,
-                fontSize: "0.8rem",
-                display: "flex",
-                fontWeight: "bold",
-              }}
-              startIcon={<ChevronLeft />}
-              variant="text"
-              color="primary"
-              </Button>
-            > */}
-            <AppButton startIcon={<ChevronLeft />}>Previous</AppButton>
-
+            <Link to="/login" className="dirtyLink">
+              <AppButton startIcon={<ChevronLeft />}>Previous</AppButton>
+            </Link>
             <span className="skipNext-group">
               <Link to="/preferances" className="dirtyLink">
                 <AppButton>Skip</AppButton>

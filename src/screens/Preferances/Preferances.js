@@ -222,7 +222,9 @@ export default function Preferances() {
                   name="hasPenTab"
                 />
                 <span className="pref-button-group">
-                  <AppButton startIcon={<ChevronLeft />}>Previous</AppButton>
+                  <Link to="/specialization" className="dirtyLink">
+                    <AppButton startIcon={<ChevronLeft />}>Previous</AppButton>
+                  </Link>
                   <span className="skipNext-group">
                     <Link to="/dashboard" className="dirtyLink">
                       <AppButton>Skip</AppButton>

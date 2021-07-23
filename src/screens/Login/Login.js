@@ -108,17 +108,10 @@ export default function Login() {
           </section>
         </div>
       </BigPaper>
-      <span
-        style={{
-          width: "20%",
-          display: "flex",
-          justifyContent: "space-between",
-          marginTop: "2rem",
-        }}
-      >
-        <Typography className="muted-text">privacy policy</Typography>
+      <span className="login-footer">
+        <Typography className="muted-text">Privacy Policy</Typography>
 
-        <Typography className="muted-text">privacy policy</Typography>
+        <Typography className="muted-text">Terms {"&"} Conditions</Typography>
       </span>
     </AppScreen>
   );
