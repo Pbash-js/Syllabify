@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pbash-js.github.io/Syllabify/static/css/main.edec18a9.chunk.css",
+    "main.js": "/pbash-js.github.io/Syllabify/static/js/main.154f7bf8.chunk.js",
+    "main.js.map": "/pbash-js.github.io/Syllabify/static/js/main.154f7bf8.chunk.js.map",
+    "runtime-main.js": "/pbash-js.github.io/Syllabify/static/js/runtime-main.04168199.js",
+    "runtime-main.js.map": "/pbash-js.github.io/Syllabify/static/js/runtime-main.04168199.js.map",
+    "static/js/2.25ae7cb5.chunk.js": "/pbash-js.github.io/Syllabify/static/js/2.25ae7cb5.chunk.js",
+    "static/js/2.25ae7cb5.chunk.js.map": "/pbash-js.github.io/Syllabify/static/js/2.25ae7cb5.chunk.js.map",
+    "index.html": "/pbash-js.github.io/Syllabify/index.html",
+    "static/css/main.edec18a9.chunk.css.map": "/pbash-js.github.io/Syllabify/static/css/main.edec18a9.chunk.css.map",
+    "static/js/2.25ae7cb5.chunk.js.LICENSE.txt": "/pbash-js.github.io/Syllabify/static/js/2.25ae7cb5.chunk.js.LICENSE.txt",
+    "static/media/Dashboard.css": "/pbash-js.github.io/Syllabify/static/media/DailygoalBackground.495ef58b.svg",
+    "static/media/SubjectCard.css": "/pbash-js.github.io/Syllabify/static/media/reasoning.52514b0e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.04168199.js",
+    "static/js/2.25ae7cb5.chunk.js",
+    "static/css/main.edec18a9.chunk.css",
+    "static/js/main.154f7bf8.chunk.js"
+  ]
+}
