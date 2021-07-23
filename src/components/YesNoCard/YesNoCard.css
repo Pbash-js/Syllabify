@@ -1,0 +1,12 @@
+.yesnocard {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.yesno {
+  display: flex;
+  gap: 1rem;
+  margin-left: 1rem;
+}

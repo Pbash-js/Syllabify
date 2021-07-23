@@ -1,0 +1,70 @@
+.task-panel {
+  height: 70px;
+  width: 100% !important;
+  display: grid !important;
+  gap: 0.5rem;
+  grid-template-columns: min-content 1fr 1fr 1fr 0.5fr;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  border-radius: 5px !important;
+}
+
+.task-panel-active {
+  background-color: red !important;
+}
+
+.task-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3rem;
+}
+
+.task-subject-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.task-topics-info {
+  margin-left: 0.5rem;
+}
+
+.task-hidden-subjects {
+  position: absolute;
+  height: 50px;
+  width: 90px;
+}
+
+.task-general-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3rem;
+}
+
+.task-status-info {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.task-status {
+  display: flex;
+  align-items: center;
+  border-radius: 1.5rem;
+  padding: 0.5rem 1rem;
+  gap: 0.5rem;
+}
+
+.task-status-Assigned {
+  color: #00ba88;
+  background-color: #dbf3ed;
+}
+.task-status-Rejected {
+  color: #f53d6b;
+  background-color: rgb(253, 204, 216);
+}
+.task-status-Completed {
+  color: #e49f1e;
+  background-color: #ffecc7;
+}

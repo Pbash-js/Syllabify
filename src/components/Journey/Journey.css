@@ -1,0 +1,26 @@
+.journey-container {
+  display: block;
+  height: 4rem;
+  width: 100%;
+}
+
+.journey-flex {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.journey-step {
+  margin: 0 0.5rem 0 0.5rem;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.journey-step-active {
+  width: 30px;
+  background-color: black;
+}

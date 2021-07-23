@@ -1,0 +1,113 @@
+.dashboard-logo {
+  padding-top: 1.5rem;
+  height: min-content;
+  width: 100%;
+}
+.drawer {
+  width: 200px;
+  margin-top: 35px;
+}
+.appbar {
+  width: calc(100% - 200px) !important;
+  margin-left: 200px !important;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.non-drawer {
+  width: calc(100% - 200px);
+  min-height: calc(100vh - 50px);
+  margin: 50px 0 0 200px;
+  padding: 2rem;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-rows: min-content 0.1fr 1fr;
+  grid-template-columns: 3fr 1fr;
+}
+
+.priority-carousel {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-column: 1/2;
+}
+
+.title-icon-container {
+  margin: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.main-dash {
+  grid-row: 3/4;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.task-list-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 1.5rem;
+  gap: 1.5rem;
+  flex-direction: column;
+}
+
+.task-list-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid grey;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.side-dash {
+  grid-column: 2/3;
+  grid-row: 2/4;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-rows: min-content min-content;
+}
+
+.money-earned,
+.money-earned-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.money-earned {
+  padding: 1.5rem;
+}
+
+.inr-icon {
+  background: url("../../img/INRIcon.png");
+  background-size: cover;
+  height: 30px;
+  width: 30px;
+}
+
+.daily-goal {
+  position: relative;
+  height: 100px;
+  width: 100%;
+}
+
+.daily-goal-background {
+  background-image: url("../../img/DailygoalBackground.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 100%;
+  /* width: 100px; */
+  position: absolute;
+}

@@ -1,0 +1,46 @@
+.subject-card {
+  padding: 1rem;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subject-image-container {
+  height: 7vw;
+  aspect-ratio: 1/1;
+}
+
+.subject-image-mathematics {
+  background: url("../../img/mathematics.jpg");
+}
+.subject-image-chemistry {
+  background: url("../../img/chemistry.jpg");
+}
+.subject-image-physics {
+  background: url("../../img/physics.jpg");
+}
+.subject-image-biology {
+  background: url("../../img/biology.jpg");
+}
+.subject-image-reasoning {
+  background: url("../../img/reasoning.jpg");
+}
+.subject-image-others {
+  background: url("../../img/others.jpg");
+}
+.subject-image {
+  background-color: black;
+  border-radius: 0.5rem;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.subject-radio {
+  height: 0px !important;
+  width: 0px !important;
+  align-self: flex-start;
+}

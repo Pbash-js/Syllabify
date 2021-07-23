@@ -1,0 +1,8 @@
+.app-button {
+  text-transform: none !important;
+  align-self: "flex-start";
+  max-lines: 1;
+  font-size: 0.8rem;
+  display: flex;
+  font-weight: bold;
+}

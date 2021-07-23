@@ -1,0 +1,9 @@
+.label-container {
+  margin: "0.5rem";
+  flex: 1;
+}
+
+.small-text-label {
+  /* font-size: 0.8rem !important; */
+  color: #000 !important;
+}
